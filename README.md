@@ -10,6 +10,10 @@
 * 10.90.1.1-9: management IP's Richtfunk Equipment
 * 10.90.1.4 : khg-sem
 * 10.90.1.5 : pionier-uplink
+* 10.90.1.6 : aruba hd sektor
+* 10.90.1.7 : aruba hd eimer 1
+* 10.90.1.8 : aruba hd eimer 2
+* 10.90.1.9 : aruba hd fuerstin (spare ext antennas)
 * 10.90.1.10 : Timo
 * 10.90.1.11 : Trantor
 * 10.90.2.0-10.90.3.254: DHCP Range gw01
