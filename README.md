@@ -16,6 +16,7 @@
 * 10.90.1.9 : aruba hd fuerstin (spare ext antennas)
 * 10.90.1.10 : Timo
 * 10.90.1.11 : Trantor
+* 10.90.1.12 : KHG Pi
 * 10.90.2.0-10.90.3.254: DHCP Range gw01
 
 ### fdef:1337:f00f:cafe::/64
