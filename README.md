@@ -1,7 +1,7 @@
 # IP-Ressources
 
 * FFRGB IPv4: 10.90.0.0/16
-* FFRGB IPv6: fdef:1337:f00f:cafe::/64
+* FFRGB IPv6: fdef:1337::/32
 
 ## Partition 1 (Regensburg Stadt)
 ### V4: 10.90.0.0/19
