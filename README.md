@@ -1,4 +1,4 @@
-# IP-Ressources
+# IP-Resources
 
 * FFRGB IPv4: 10.90.0.0/16
 * FFRGB IPv6: fdef:1337::/32
