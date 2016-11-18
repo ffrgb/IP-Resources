@@ -49,32 +49,19 @@
 ### V4: 10.90.192.0/19
 ### V6: fdef:1337:f60f:cafe::/64
 
-## Partition 8 (Wireless Backbone)
-### V4: 10.90.224.0/19
-* Transfer: 10.90.248.0/22 [je /30]
-  * 10.90.248.0/30 : FAN <-> Zeiss
-  * 10.90.248.4/30 : FAN <-> Isar
-  * 10.90.248.8/30 : Zeiss <-> Galeria
-  * 10.90.248.12/30 : KHG <-> Galeria
-  * 10.90.248.16/30 : KHG <-> Isar
-* Admin-VPN: 10.90.252.0/24 
-* Management: 10.90.254.0/24
-  * 10.90.254.11 : pbe-fan-1
-  * 10.90.254.12 : pbe-fan-2
-  * 10.90.254.21 : pbe-khg-1
-  * 10.90.254.22 : pbe-khg-2
-  * 10.90.254.31 : pbe-zeiss-1
-  * 10.90.254.32 : pbe-zeiss-2
-  * 10.90.254.33 : nbe-zeiss-3
-  * 10.90.254.41 : pbe-isar-1
-  * 10.90.254.42 : pbe-isar-2
-  * 10.90.254.51 : pbe-galeria-1
-  * 10.90.254.52 : pbe-galeria-2
-* Loopback: 10.90.255.0/24 [je /32]
-  * 19.90.255.1 : erx-fan
-  * 10.90.255.2 : erx-khg
-  * 10.90.255.3 : erx-zeiss
-  * 10.90.255.4 : erx-isar
-  * 10.90.255.5 : erx-galeria
+## Management / Internal Networks
+### V4 10.90.224.0/19
 
-### V6: fdef:1337:f70f:cafe::/64
+* 10.90.224.0/22 : RZ FRA
+  * 10.90.224.0/24 : Management RZ
+    * 10.90.224.1 : Gateway
+    * 10.90.224.11 : xsffr1
+    * 10.90.224.12 : xsffr2
+    * 10.90.224.21 : xsffr1-bmc
+    * 10.90.224.22 : xsffr2-bmc
+  * 10.90.226.0/24 : Admin VPN
+* 10.90.240.0/20 : Wireless Backbone
+  * 10.90.240.0/22 : Transfer
+  * 10.90.250.0/24 : Admin VPN
+  * 10.90.252.0/23 : Management
+  * 10.90.255.0/24 : Loopback
