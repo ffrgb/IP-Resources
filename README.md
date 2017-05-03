@@ -12,7 +12,7 @@
 * 10.90.1.11 : Trantor
 * 10.90.1.12 : KHG Pi
 * 10.90.1.21 : EgeRouter (Neupfarr)
-* 10.90.1.22 : EgeRouter (Zeis)
+* 10.90.1.22 : EgeRouter (Zeiss)
 * 10.90.1.25 : Aruba AP (Neupfarr)
 * 10.90.1.26 : Aruba AP (TBD)
 * 10.90.1.27 : Aruba AP (Gloria)
