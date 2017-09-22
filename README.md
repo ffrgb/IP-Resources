@@ -13,9 +13,7 @@
 * 10.90.1.12 : KHG Pi
 * 10.90.1.21 : EgeRouter (Neupfarr)
 * 10.90.1.22 : EgeRouter (Zeiss)
-* 10.90.1.25 : NS2loco 1 Doerfling (Tmp)
-* 10.90.1.26 : NS2loco 2 Doerfling (Tmp)
-* 10.90.1.27 : NS2loco 3 Doerfling (Tmp)
+* 10.90.1.42 : EdgeRouter (Kelheim)
 * 10.90.2.0-10.90.9.254: DHCP Range gw01
 * 10.90.10.1-10.90.18.254 DHCP Range gw04
 
