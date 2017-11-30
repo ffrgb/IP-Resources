@@ -13,6 +13,8 @@
 * 10.90.1.12 : KHG Pi
 * 10.90.1.21 : EgeRouter (Neupfarr)
 * 10.90.1.22 : EgeRouter (Zeiss)
+* 10.90.1.30 : nsm5_Gloria (Weihnachtsmarkt)
+* 10.90.1.31 : nsm5loco_Gloria (Weihnachtsmarkt)
 * 10.90.1.42 : EdgeRouter (Kelheim)
 * 10.90.2.0-10.90.9.254: DHCP Range gw01
 * 10.90.10.1-10.90.18.254 DHCP Range gw04
